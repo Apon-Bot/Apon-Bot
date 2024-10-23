@@ -20,7 +20,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 		var msg = {
 				body: "আ্ঁপ্ঁন্ঁ ব্ঁস্ঁ এ্ঁর্ঁ চি্ঁপা্ঁয়্ঁ জা্ঁও্ঁ ঝা্ঁং🥵🥵",
       body: "আ্ঁপ্ঁন্ঁ ব্ঁস্ঁ এ্ঁর্ঁ চি্ঁপা্ঁয়্ঁ জা্ঁও্ঁ ঝা্ঁং🥵🥵",
-				attachment: fs.createReadStream(__dirname + `/Nayan/Mayab.mp3`)
+				attachment: "আ্ঁপ্ঁন্ঁ ব্ঁস্ঁ এ্ঁর্ঁ চি্ঁপা্ঁয়্ঁ জা্ঁও্ঁ ঝা্ঁং🥵🥵",
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
